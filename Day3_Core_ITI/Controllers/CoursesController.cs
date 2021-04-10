@@ -7,9 +7,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Day3_Core_ITI;
 using Day3_Core_ITI.Models;
+using ServiceStack;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Day3_Core_ITI.Controllers
 {
+    [Authenticate]
+    [Authorize]
+
     public class CoursesController : Controller
     {
         private readonly TracksContext _context;

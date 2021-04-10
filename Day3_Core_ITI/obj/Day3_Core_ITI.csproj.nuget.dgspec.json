@@ -75,6 +75,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[5.10.4, )"
             }
           },
           "imports": [

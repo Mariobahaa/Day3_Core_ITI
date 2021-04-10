@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Day3_Core_ITI.Services;
 
 namespace Day3_Core_ITI
 {
@@ -27,6 +28,7 @@ namespace Day3_Core_ITI
             services.AddAuthentication();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddTransient<ITracksRepositry, TracksRepoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
