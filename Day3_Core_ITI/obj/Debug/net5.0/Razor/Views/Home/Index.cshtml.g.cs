@@ -26,8 +26,23 @@ using Day3_Core_ITI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 1 "E:\My Programs\ITIC#\Day3_Core_ITI\Day3_Core_ITI\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "E:\My Programs\ITIC#\Day3_Core_ITI\Day3_Core_ITI\Views\_ViewImports.cshtml"
+using Day3_Core_ITI.Areas.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8fe5dbdbc7683c20a854c62abfc7d40fd6258299", @"/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"254add31b5f94a17fee64ec540ce8b05b5101a39", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
