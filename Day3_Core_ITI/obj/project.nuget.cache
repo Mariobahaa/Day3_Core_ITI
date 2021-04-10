@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "59xublrjX87r5NCGvzkdOV4l/hIQIDMfZLK1oL2AG88FJjfjRwVISckfj/CkUJvuqFYSSA5guy6neDa7g70OLw==",
+  "success": true,
+  "projectFilePath": "E:\\My Programs\\ITIC#\\Day3_Core_ITI\\Day3_Core_ITI\\Day3_Core_ITI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mario\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512"
+  ],
+  "logs": []
+}

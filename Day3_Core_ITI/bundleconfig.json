@@ -1,0 +1,22 @@
+[
+  {
+    "inputFiles": [
+      "wwwroot/css/style1.css",
+      "wwwroot/css/style2.css"
+    ],
+    "minify": {"enabled": true},
+    "outputFileName": "wwwroot/css/min/StylesBundle.css"
+  },
+  {
+    "inputFiles": [
+      "wwwroot/lib/jquery/dist/jquery.min.js",
+      "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "wwwroot/js/site.js"
+    ],
+    "minify": { "enabled": true },
+    "outputFileName": "wwwroot/lib/min/Scripts.js"
+  }
+
+]
+
+
